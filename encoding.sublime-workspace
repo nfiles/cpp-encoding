@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"beg",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"fo",
+				"for	For Loop"
+			],
+			[
 				"c",
 				"cssreset	cssreset"
 			],
@@ -312,10 +320,6 @@
 				"character"
 			],
 			[
-				"fo",
-				"for	for (…) {…}"
-			],
-			[
 				"in",
 				"inner"
 			],
@@ -375,7 +379,7 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 71,
+				"buffer_size": 282,
 				"line_ending": "Windows"
 			}
 		},
@@ -391,7 +395,7 @@
 			"file": "base64encoder.cpp",
 			"settings":
 			{
-				"buffer_size": 185,
+				"buffer_size": 360,
 				"line_ending": "Windows"
 			}
 		},
@@ -1089,7 +1093,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1323,15 +1327,15 @@
 					"file": "main.cpp",
 					"settings":
 					{
-						"buffer_size": 71,
+						"buffer_size": 282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								71
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1441,8 +1445,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								359,
+								359
 							]
 						],
 						"settings":
@@ -1545,15 +1549,15 @@
 					"file": "base64encoder.cpp",
 					"settings":
 					{
-						"buffer_size": 185,
+						"buffer_size": 360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								155
+								360,
+								360
 							]
 						],
 						"settings":
