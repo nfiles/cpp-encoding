@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"def",
+				"define"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"bit",
+				"bit_pattern"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
 				"c",
 				"cssreset	cssreset"
 			],
@@ -316,10 +332,6 @@
 				"for	for (…) {…}"
 			],
 			[
-				"in",
-				"inner"
-			],
-			[
 				"e",
 				"equals"
 			],
@@ -356,39 +368,31 @@
 	"buffers":
 	[
 		{
-			"file": "main.cpp",
-			"settings":
-			{
-				"buffer_size": 72,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "base64encoder.h",
-			"settings":
-			{
-				"buffer_size": 127,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "base64encoder.cpp",
-			"settings":
-			{
-				"buffer_size": 402,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "makefile",
 			"settings":
 			{
-				"buffer_size": 498,
+				"buffer_size": 444,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "encoder.h",
+			"file": "src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/base64encoder.cpp",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/encoder.h",
 			"settings":
 			{
 				"buffer_size": 226,
@@ -396,20 +400,52 @@
 			}
 		},
 		{
-			"file": "encoder.cpp",
+			"file": "src/encoder.cpp",
 			"settings":
 			{
 				"buffer_size": 264,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.sh",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "Packages/Sublime-JSHint/JSHint.sublime-build",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"mer",
+				"Git: Merge Branch"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -417,10 +453,6 @@
 			[
 				"instal",
 				"Preferences: Alignment File Settings – Default"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"word",
@@ -431,16 +463,8 @@
 				"LoremIpsum: (200) stick shake"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Preferences: Browse Packages"
-			],
-			[
-				"space",
-				"Indentation: Convert to Spaces"
 			],
 			[
 				"save",
@@ -533,10 +557,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"spaces",
@@ -675,10 +695,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"tabs",
-				"Indentation: Convert to Tabs"
-			],
-			[
 				"inden",
 				"Indentation: Convert to Tabs"
 			],
@@ -772,6 +788,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/filesnw1/github/cpp-encoding/src/base64encoder.h",
+		"/C/Users/filesnw1/github/cpp-encoding/test.sh",
+		"/C/Users/filesnw1/github/cpp-encoding/main.cpp",
+		"/C/Users/filesnw1/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/Users/filesnw1/github/cpp-encoding/encoder.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/encoder.h",
+		"/C/Users/filesnw1/github/cpp-encoding/base64encoder.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/base64encoder.h",
 		"/C/Users/filesnw1/AppData/Roaming/Sublime Text 2/Packages/Terminal/Base File.sublime-settings",
 		"/C/Users/filesnw1/Dropbox/Programs/fib/makefile",
 		"/C/Users/filesnw1/github/cpp-encoding/base64encoder.c",
@@ -891,15 +915,7 @@
 		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/Status/2013/2013-06-28_status.txt",
 		"/C/Users/files/Desktop/hello_server.js",
 		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/RDA/RDA Expense Reports/RDA_Expense_Reports/KnockoutModel/index.html",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/RDA/RDA Expense Reports/RDA_Expense_Reports/KnockoutModel/script.js",
-		"/C/Users/files/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/files/Dropbox/Apps/Pancake.io/getting-started.txt",
-		"/C/Users/files/Dropbox/Apps/Pancake.io/Level00/index.html",
-		"/C/Users/files/Dropbox/Apps/Pancake.io/example.txt",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/Level00/index.html",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/Learning/Pluralsight/2013-06-07 Introduction to Bootstrap/4-components/everyday-forms.html",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/.git/.COMMIT_EDITMSG.swp",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/.git/config"
+		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/RDA/RDA Expense Reports/RDA_Expense_Reports/KnockoutModel/script.js"
 	],
 	"find":
 	{
@@ -918,6 +934,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"CC",
+			"DEBUG",
+			"base64encoder",
+			"gcc",
 			"\n};",
 			"byte_array",
 			"\\\\\"",
@@ -1041,11 +1061,7 @@
 			"\\{([^}]*)\\}",
 			"\\{.*?\\}",
 			"\\{.*\\}",
-			"\\s+",
-			"\\d+:",
-			"\"",
-			"]",
-			"\\["
+			"\\s+"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1085,114 +1101,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.cpp",
+					"file": "makefile",
 					"settings":
 					{
-						"buffer_size": 72,
+						"buffer_size": 444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								54,
+								54
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"smarttabs": true,
-								"trailing": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/Makefile/Makefile.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1202,109 +1133,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "base64encoder.h",
+					"file": "src/main.cpp",
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								237,
+								237
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"smarttabs": true,
-								"trailing": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1314,145 +1159,33 @@
 				},
 				{
 					"buffer": 2,
-					"file": "base64encoder.cpp",
+					"file": "src/base64encoder.cpp",
 					"settings":
 					{
-						"buffer_size": 402,
+						"buffer_size": 1012,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								1012,
+								1012
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"smarttabs": true,
-								"trailing": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "makefile",
-					"settings":
-					{
-						"buffer_size": 498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Makefile/Makefile.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "encoder.h",
+					"file": "src/encoder.h",
 					"settings":
 					{
 						"buffer_size": 226,
@@ -1462,97 +1195,38 @@
 						"selection":
 						[
 							[
-								82,
-								82
+								226,
+								226
 							]
 						],
 						"settings":
 						{
-							"annotations":
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/encoder.cpp",
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"smarttabs": true,
-								"trailing": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
+								0,
+								0
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1563,108 +1237,23 @@
 				},
 				{
 					"buffer": 5,
-					"file": "encoder.cpp",
+					"file": "test.sh",
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 83,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
+								83,
+								83
 							]
 						],
 						"settings":
 						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"smarttabs": true,
-								"trailing": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
