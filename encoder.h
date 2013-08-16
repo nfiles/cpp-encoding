@@ -2,7 +2,7 @@
 // Base type for encoding objects
 
 #include <string>
-using std::string
+using std::string;
 
 #include <vector>
 using std::vector;

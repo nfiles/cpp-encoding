@@ -7,7 +7,7 @@
 #include "encoder.h"
 
 template<typename DerivedType>
-static string Encoder::encode ( const string& input ) {
+string Encoder<DerivedType>::encode ( const string& input ) {
 	return DerivedType::encode(input);
 }
 
