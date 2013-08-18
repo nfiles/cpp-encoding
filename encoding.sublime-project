@@ -1,13 +1,13 @@
 {
-	"folders":
-	[
-		{
-			"file_exclude_patterns":
-			[
-				"*.sublime-project",
-				"*.sublime-workspace"
-			],
-			"path": "."
-		}
-	]
+  "folders": [
+    {
+      "path": ".",
+      "file_exclude_patterns": [
+        "*.sublime-project",
+        "*.sublime-workspace",
+        "*.gch",
+        "*.o"
+      ]
+    }
+  ]
 }

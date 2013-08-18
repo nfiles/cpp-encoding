@@ -1,25 +1,32 @@
 CC = g++
-DEBUG = -g
-VPATH = src/
-BIN = bin/
-SRC = src/
-OBJECTS = encoder.o base64encoder.o main.o
-FILES = encoder.cpp encoder.h base64encoder.cpp base64encoder.h main.cpp
+DEBUG = -g -Wall
+SRC = src
+BIN = bin/encoding.exe
+RELEASE = -O3
+OBJECTS = encoding.o base64encoding.o main.o
+FILES = encoding.cpp base64encoding.cpp base64encoding.h main.cpp
 EXE = encoding.exe
 
-build : $(OBJECTS)
-	$(CC) $(DEBUG) $? -o $(BIN)$(EXE)
+build :
+	make -C $(SRC) build
 
-main.o : main.cpp
-	$(CC) -c $(DEBUG) $?
+# encoding : encoding.o base64encoding.o main.o
+# 	$(CC) $^ -o $(BIN)
 
-%.o : %.h %.cpp
-	$(CC) -c $(DEBUG) $?
+# main.o : main.cpp
+# 	$(CC) -c $(DEBUG) $^ -o $@
 
-release : $(FILES)
-	$(CC) $^ -o $(BIN)$(EXE)
+# encoding.o : encoding.cpp
+# 	$(CC) -c $(DEBUG) $^ -o $@
+
+# %.o : %.cpp %.h
+# 	$(CC) -c $(DEBUG) $^
+
+release :
+	make -C $(SRC) release
 
 clean :
-	rm -f $(SRC)*.o $(SRC)*.gch $(BIN)*.exe
+	rm -f *.o *.gch *.stackdump
+	make -C $(SRC) clean
 
 rebuild : clean build

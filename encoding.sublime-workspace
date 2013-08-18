@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"enc",
+				"encoded"
+			],
+			[
+				"hash",
+				"hashIndex"
+			],
+			[
+				"h",
+				"hashIndex"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"encod",
+				"encoding"
+			],
+			[
+				"E",
+				"EncodingScheme"
+			],
+			[
+				"B",
+				"Base64Encoder"
+			],
+			[
+				"Enc",
+				"EncodingScheme"
+			],
+			[
+				"f",
+				"fprintf	fprintf …"
+			],
+			[
 				"def",
 				"define"
 			],
@@ -26,10 +62,6 @@
 			[
 				"bit_",
 				"bit_len"
-			],
-			[
-				"encod",
-				"encoded_len"
 			],
 			[
 				"Exam",
@@ -174,10 +206,6 @@
 			[
 				"ap",
 				"append"
-			],
-			[
-				"f",
-				"f	Anonymous Function"
 			],
 			[
 				"pos",
@@ -332,10 +360,6 @@
 				"for	for (…) {…}"
 			],
 			[
-				"e",
-				"equals"
-			],
-			[
 				"pa",
 				"padding"
 			],
@@ -368,42 +392,18 @@
 	"buffers":
 	[
 		{
-			"file": "makefile",
+			"file": "test_release.sh",
 			"settings":
 			{
-				"buffer_size": 444,
-				"line_ending": "Windows"
+				"buffer_size": 419,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/main.cpp",
+			"file": "src/makefile",
 			"settings":
 			{
-				"buffer_size": 237,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/base64encoder.cpp",
-			"settings":
-			{
-				"buffer_size": 1012,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/encoder.h",
-			"settings":
-			{
-				"buffer_size": 226,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/encoder.cpp",
-			"settings":
-			{
-				"buffer_size": 264,
+				"buffer_size": 534,
 				"line_ending": "Windows"
 			}
 		},
@@ -411,7 +411,7 @@
 			"file": "test.sh",
 			"settings":
 			{
-				"buffer_size": 83,
+				"buffer_size": 323,
 				"line_ending": "Unix"
 			}
 		}
@@ -419,9 +419,33 @@
 	"build_system": "Packages/Sublime-JSHint/JSHint.sublime-build",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -432,10 +456,6 @@
 			],
 			[
 				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"remo",
 				"Package Control: Remove Package"
 			],
 			[
@@ -553,10 +573,6 @@
 			[
 				"proj",
 				"Project: Edit"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"spaces",
@@ -739,10 +755,6 @@
 				"Indentation: Convert to Tabs"
 			],
 			[
-				"spa",
-				"Indentation: Convert to Spaces"
-			],
-			[
 				"sshtm",
 				"Set Syntax: HTML"
 			],
@@ -771,7 +783,7 @@
 				"View: Toggle Menu"
 			]
 		],
-		"width": 528.0
+		"width": 364.0
 	},
 	"console":
 	{
@@ -788,9 +800,27 @@
 	},
 	"file_history":
 	[
-		"/C/Users/filesnw1/github/cpp-encoding/src/base64encoder.h",
+		"/C/Users/filesnw1/github/cpp-encoding/test_release.sh",
+		"/C/Users/filesnw1/github/cpp-encoding/src/makefile",
 		"/C/Users/filesnw1/github/cpp-encoding/test.sh",
+		"/C/Users/filesnw1/github/cpp-encoding/makefile",
+		"/C/Users/filesnw1/github/cpp-encoding/test/test_release.sh",
+		"/C/Users/filesnw1/github/cpp-encoding/test/test.sh",
+		"/C/Users/filesnw1/github/cpp-encoding/base64encoding.h",
+		"/C/Users/filesnw1/github/cpp-encoding/encoding.sublime-project",
 		"/C/Users/filesnw1/github/cpp-encoding/main.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/base64encoding.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/encoding.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/src/main.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/src/encoding.h",
+		"/C/Users/filesnw1/github/cpp-encoding/src/base64encoding.h",
+		"/C/Users/filesnw1/github/cpp-encoding/src/base64encoding.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/src/encoding.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/encoding.exe.stackdump",
+		"/C/Users/filesnw1/github/cpp-encoding/src/encoder.cpp",
+		"/C/Users/filesnw1/github/cpp-encoding/src/encoder.h",
+		"/C/Users/filesnw1/github/cpp-encoding/src/base64encoder.h",
+		"/C/Users/filesnw1/github/cpp-encoding/src/base64encoder.cpp",
 		"/C/Users/filesnw1/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
 		"/C/Users/filesnw1/github/cpp-encoding/encoder.cpp",
 		"/C/Users/filesnw1/github/cpp-encoding/encoder.h",
@@ -801,7 +831,6 @@
 		"/C/Users/filesnw1/github/cpp-encoding/base64encoder.c",
 		"/C/Users/files/Dropbox/School/COMP 401/Projects/Project02/NSData+Additions/NSData+Additions.h",
 		"/C/Users/files/Dropbox/School/COMP 401/Projects/Project02/NSData+Additions/NSData+Additions.m",
-		"/C/Users/filesnw1/github/cpp-encoding/encoding.sublime-project",
 		"/C/Users/files/Dropbox/Programs/base64/encoding.sublime-project",
 		"/C/Users/files/Dropbox/Programs/base64/base64.h",
 		"/C/Users/files/Dropbox/Programs/base64/base64.sublime-project",
@@ -898,24 +927,7 @@
 		"/C/Users/files/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
 		"/C/Users/files/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
 		"/C/Users/files/Documents/IISExpress/config/applicationhost.config",
-		"/C/Users/files/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
-		"/C/Users/files/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/files/Downloads/Shenanigans.2013-06-26.173124+00.2013-06-26.183124+00.json",
-		"//rdacorp.com/fs/home/rda_empl/files/My Documents/Status/2013/2013-06-21_status.txt",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/server.js",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/Level02.0/calendar.css",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/Level02.0/calendar.js",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/Level02.0/events.js",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/Level02.0/index.html",
-		"/C/Windows/Microsoft.NET/Framework/v4.0.30319/Config/machine.config",
-		"/C/Users/files/Documents/RDA/rda-web-challenge/Level01.0/index.html",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/RDA/RDA Expense Reports/expense_model_sketch.txt",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/Status/2013/2013-06-21_status.txt",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/Status/2013/2013-06-14_status.txt",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/Status/2013/2013-06-28_status.txt",
-		"/C/Users/files/Desktop/hello_server.js",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/RDA/RDA Expense Reports/RDA_Expense_Reports/KnockoutModel/index.html",
-		"//rdacorp.com/fs/Home/RDA_EMPL/files/My Documents/RDA/RDA Expense Reports/RDA_Expense_Reports/KnockoutModel/script.js"
+		"/C/Users/files/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -934,6 +946,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"CC",
+			"compile",
+			"build",
+			" -o $@",
+			"$(SRC)",
+			"c",
+			"(char)",
+			"index",
+			"6",
+			"<",
+			">",
+			"z",
+			"Z",
+			"ENCODING_H",
+			"BASE64ENCODING_H",
+			"private",
+			"public",
+			"Base64Encoding",
+			"BASE64ENCODER_H",
+			"Base64Encoder",
+			"num_inputs",
+			"clear",
+			"encoder",
+			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+			"ENCODER_H",
+			"echo",
+			"num",
 			"CC",
 			"DEBUG",
 			"base64encoder",
@@ -1034,34 +1073,7 @@
 			"=",
 			"monthbodyclass",
 			"'<div></div>'[^;]",
-			"'<div></div>'",
-			"APPOINTMENTCLASS",
-			"month",
-			"start",
-			"date",
-			"calendar",
-			"highlightTodayFrom",
-			"From",
-			"selectDate",
-			"today",
-			"TODAYCLASS",
-			"0;",
-			"0e",
-			"0p",
-			"createMonth",
-			"span",
-			"\\\"\\d+\\\" \\}",
-			"div",
-			"white",
-			"}",
-			"MONTHTITLE",
-			"{",
-			"\\s+",
-			"\\d+",
-			"\\{([^}]*)\\}",
-			"\\{.*?\\}",
-			"\\{.*\\}",
-			"\\s+"
+			"'<div></div>'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1106,115 +1118,10 @@
 			[
 				{
 					"buffer": 0,
-					"file": "makefile",
+					"file": "test_release.sh",
 					"settings":
 					{
-						"buffer_size": 444,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54,
-								54
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Makefile/Makefile.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/main.cpp",
-					"settings":
-					{
-						"buffer_size": 237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/base64encoder.cpp",
-					"settings":
-					{
-						"buffer_size": 1012,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1012,
-								1012
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/encoder.h",
-					"settings":
-					{
-						"buffer_size": 226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/encoder.cpp",
-					"settings":
-					{
-						"buffer_size": 264,
+						"buffer_size": 419,
 						"regions":
 						{
 						},
@@ -1227,7 +1134,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1236,19 +1143,45 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "test.sh",
+					"buffer": 1,
+					"file": "src/makefile",
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test.sh",
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1335,7 +1268,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 166.0,
 	"status_bar_visible": true
 }
