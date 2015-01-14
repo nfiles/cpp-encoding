@@ -1,21 +1,21 @@
 CC = g++
-DEBUG = -g -Wall
 BIN = ../bin/encoding.exe
+
+DEBUG = -g -Wall
 RELEASE = -O3
+
 OBJECTS = encoding.o base64encoding.o main.o
+NOHEADER = main.o encoding.o
 FILES = encoding.cpp base64encoding.cpp base64encoding.h main.cpp
-EXE = encoding.exe
+TEMP = *.o *.gch *.stackdump
 
-build : encoding
-
-encoding : encoding.o base64encoding.o main.o
+build : $(OBJECTS)
 	$(CC) $^ -o $(BIN)
 
 main.o : main.cpp
-	$(CC) -c $(DEBUG) $^ -o $@
-
 encoding.o : encoding.cpp
-	$(CC) -c $(DEBUG) $^ -o $@
+$(NOHEADER) :
+	$(CC) -c $(DEBUG) $^
 
 %.o : %.cpp %.h
 	$(CC) -c $(DEBUG) $^
@@ -24,6 +24,6 @@ release : $(FILES)
 	$(CC) $(RELEASE) $^ -o $(BIN)
 
 clean :
-	rm -f *.o *.gch *.stackdump
+	rm -f $(TEMP) $(BIN)
 
 rebuild : clean build
