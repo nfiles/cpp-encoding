@@ -6,3 +6,7 @@
 # Emacs temp files
 \#*#
 *~
+
+# Sublime Text workspace
+# contains potentially sensitive data about filesystem
+*.sublime-workspace
