@@ -2,7 +2,7 @@
 
 printf "\n> Building Release...\n"
 if make release; then
-    if [ -a ./bin/encoding.exe ]; then
+    if [ -e ./bin/encoding.exe ]; then
         printf "\n> Running...\n"
         ./bin/encoding.exe 'Hello, World!'\
                            'My name is Nathan.'\
