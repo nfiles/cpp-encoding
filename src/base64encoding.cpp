@@ -6,30 +6,29 @@
 
 #include "base64encoding.h"
 
+#define BIT_TO_CHAR(var,pos) (bool)(var & (1<<pos)) ? '1' : '0'
+#define CHAR_TO_BIT(c) (c == '1' ? 1 : 0)
+
 string Base64Encoding::hash = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
 string Base64Encoding::encode ( const string& input ) {
   string bit_pattern = "";
 
-#define CHECK_BIT(var,pos) (bool)((var) & (1<<(pos)))
   // bits
   for (unsigned int i = 0; i < input.length(); ++i) {
     for (int b = 7; b >= 0; --b) {
-      bit_pattern += CHECK_BIT(input[i], b) ? '1' : '0';
+      bit_pattern += BIT_TO_CHAR(input[i], b);
     }
   }
-#undef CHECK_BIT
 
   // encoded
   string encoded = "";
   int index; // index in base64 hash
   for (unsigned int i = 0; i * 6 < bit_pattern.length(); ++i) {
     index = 0;
-#define IS_ONE(c) (c =='1' ? 1 : 0)
     for (unsigned int j = 0; j < 6 && i * 6 + j < bit_pattern.length(); ++j) {
-      index += (IS_ONE(bit_pattern[i * 6 + j]) << (5 - j));
+      index += (CHAR_TO_BIT(bit_pattern[i * 6 + j]) << (5 - j));
     }
-#undef IS_ONE
     encoded += Base64Encoding::hash[index];
   }
 
@@ -47,16 +46,14 @@ string Base64Encoding::decode ( const string& input ) {
 
   // convert each character to its numeric value according to the hash
   unsigned int index;
-#define CHECK_BIT(var,pos) (bool)((var) & (1 << pos))
   for (unsigned int i = 0; i < input.length(); ++i) {
     if (input[i] == '=') continue;
 
     index = hashIndex(input[i]);
     for (unsigned int j = 0; j < 6; ++j) {
-      bit_pattern += (CHECK_BIT(index, (5-j)) ? '1' : '0');
+      bit_pattern += BIT_TO_CHAR(index, (5-j));
     }
   }
-#undef CHECK_BIT
 
   // create original characters from bits
   string clear;
@@ -97,5 +94,8 @@ int Base64Encoding::hashIndex ( const char& c ) {
 
   return -1;
 }
+
+#undef CHECK_BIT
+#undef IS_ONE
 
 #endif // BASE64ENCODING_H
