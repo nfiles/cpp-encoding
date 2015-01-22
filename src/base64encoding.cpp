@@ -6,10 +6,7 @@
 
 #include "base64encoding.h"
 
-string Base64Encoding::hash
-    = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-string test_hash
-    = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/,<?>''\";:\\|]}[{!@#$%^&*()_+-=";
+string Base64Encoding::hash = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
 string Base64Encoding::encode ( const string& input ) {
   string bit_pattern = "";
@@ -82,12 +79,12 @@ int Base64Encoding::hashIndex ( const char& c ) {
     }
     else if (c >= 'A') {
       if (c <= 'Z') {
-	// A..Z
-	return (int)c - 'A';
+        // A..Z
+        return (int)c - 'A';
       }
       else if (c >= 'a' && c <= 'z') {
-	// a..z
-	return (int)c - 'a' + 26;
+        // a..z
+        return (int)c - 'a' + 26;
       }
     }
   }
